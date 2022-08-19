@@ -1,0 +1,115 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+html {
+  font-size: 14px;
+}
+
+h1{
+  text-align: center;
+}
+
+#criar {
+  background: #4e33ff;
+  /*color: #08090d;*/
+  color: #ffffff;
+  text-decoration: none;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 14px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+  padding: 10px;
+  text-align: center;
+}
+
+#areabusca{
+  text-align: center;
+}
+
+#btnBus{
+  background: #4e33ff;
+  color: #ffffff;
+  border: 1px solid #4e33ff;
+  border-radius: 6px;
+  border: 1px solid rgba(0, 0, 0, 0.185);
+}
+
+#buscar{
+  width: 50%;
+  border: 1px solid rgba(0, 0, 0, 0.331);
+  border-radius: 6px;
+  padding: 2px;
+}
+
+.teste{
+  text-align: center;
+}
+
+#card{
+  margin: 10px;
+  border-radius: 6px;
+}
+
+#btnP{
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.398);
+  padding: 5px;
+  color: #08090d;
+  text-decoration: none;
+  border-radius: 6px;
+
+  width: 100px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#btnD{
+  background: #ffffff;
+  border: 1px solid rgba(0, 0, 0, 0.398);
+  padding: 5px;
+  color: #08090d;
+  text-decoration: none;
+  border-radius: 6px;
+
+  width: 100px;
+  height: 40px;
+  font-weight: 600;
+  font-size: 12px;
+}
+
+#btnD:hover{
+  background: red;
+  color: #ffffff;
+}
+
+#btnP:hover{
+  background: #09c0fa;
+}
+
+#card:hover{
+  background: #4e33ff;
+  color: #ffffff;
+  border-radius: 6px;
+}
+
+#btns{
+  display: flex;
+}
+
+ @media (min-width: 768px) {
+        html {
+    font-size: 16px;
+  }
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background-image: linear-gradient(180deg, #ffffff, #7229d957);
+    background-attachment: fixed;
+    font-family: 'Poppins', sans-serif;
+}
